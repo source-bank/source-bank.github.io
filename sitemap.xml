@@ -1,25 +1,200 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
+    <!-- 메인 페이지 -->
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
-        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+        <loc>https://source-bank.github.io/</loc>
+        <lastmod>2024-12-26</lastmod>
         <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- 기본 설정 -->
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223622543496</loc>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-    {% endfor %}
-    {% for page in site.pages %}
-    {% if page.sitemap != false %}
+
+    <!-- 공지사항 만들기 -->
     <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+        <loc>https://m.blog.naver.com/sourcebank/223622564873</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
     </url>
-    {% endif %}
-    {% endfor %}
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223622588734</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223622621626</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223622713367</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223622835646</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223623993264</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223624235994</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223627562515</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223631892045</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223631912425</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- 로그인/로그아웃 -->
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223637876175</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223637879314</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223638273762</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223638279650</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223638287971</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223638296091</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223638319454</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Q&A 만들기 -->
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223638493366</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223638496349</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223638535472</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223639400871</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223639634246</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223639646426</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223639722380</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223639805747</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223639915371</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223641095501</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223641132353</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223641152677</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Tip -->
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223642391094</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223642590612</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223642602543</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223645960213</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223647915841</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://m.blog.naver.com/sourcebank/223649079923</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
